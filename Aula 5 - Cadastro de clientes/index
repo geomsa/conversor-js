@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link href="css/estilo1.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <form id="cadastroDeClientes">
+        <label for="nome">Nome</label>
+        <input type="text">
+        <label for="cep">CEP</label>
+        <input type="number" id="valor">
+        <button type="submit" id="consultar" onclick="cep" >Consultar</button>
+        <label for="logradouro">Logradouro</label>
+        <label for="bairro">Bairro</label>
+        <label for="estado">Estado</label>
+        <select id="estado" required>
+            <option value="" disabled selected>Selecione...</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </select>
+        <p id="resultado"></p>
+    </form>
+</body>
